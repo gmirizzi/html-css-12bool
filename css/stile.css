@@ -12,6 +12,11 @@
     border-color: blue;
 }
 
+.container {
+    max-width: 100%;
+    margin: .5em 0 1em;
+}
+
 .row {
     height: auto;
 }
