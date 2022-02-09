@@ -2,13 +2,14 @@
     background-color: blue;
     color: white;
     text-align: center;
-    margin: 1px;
+    border: 1px solid white;
     height: 2.5em;
     padding: .5em;
 }
 
 [class*="col"] [class*="col"] {
     background-color: green;
+    border-color: blue;
 }
 
 .row {
