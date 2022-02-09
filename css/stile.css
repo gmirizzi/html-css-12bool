@@ -1,7 +1,11 @@
 [class*="col"] {
     background-color: blue;
-    border: 1px solid white;
     color: white;
     text-align: center;
-    line-height: 2em;
+    padding: .5em;
+    margin: 1px;
+}
+
+[class*="col"] [class*="col"] {
+    background-color: green;
 }
