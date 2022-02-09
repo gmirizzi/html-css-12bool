@@ -2,10 +2,15 @@
     background-color: blue;
     color: white;
     text-align: center;
-    padding: .5em;
     margin: 1px;
+    height: 2.5em;
+    padding: .5em;
 }
 
 [class*="col"] [class*="col"] {
     background-color: green;
+}
+
+.row {
+    height: auto;
 }
