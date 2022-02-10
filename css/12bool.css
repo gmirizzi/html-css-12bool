@@ -15,6 +15,16 @@
     flex: wrap;
 }
 
+/* COLUMNS */
+[class*="col"] {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex: 1 1 0;
+    max-width: 100%;
+}
+
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
